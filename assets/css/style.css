@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #bcbdbe;
+  color: #e6e9ec;
 }
 
 a {
@@ -170,7 +170,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a, .nav-menu a:focus {
   display: flex;
   align-items: center;
-  color: #bcbdbe;
+  color: #e6e9ec;
   padding: 10px 18px;
   margin-bottom: 8px;
   transition: 0.3s;
@@ -390,7 +390,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #bcbdbe;/*Eletrical/Eletronics Engineer Student.*/ 
+  color: #e6e9ec;/*Eletrical/Eletronics Engineer Student.*/ 
 }
 
 .about .content ul {
@@ -478,7 +478,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #bcbdbe;
+  color: #e6e9ec;
 }
 
 .skills .progress .skill .val {
@@ -487,7 +487,7 @@ section {
 }
 
 .skills .progress-bar-wrap {
-  background: #bcbdbe;/*fundo das barras*/
+  background: #e6e9ec;/*fundo das barras*/
 }
 
 .skills .progress-bar {
@@ -505,7 +505,7 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #bcbdbe;
+  color: #e6e9ec;
 }
 
 .resume .resume-item {
@@ -526,7 +526,7 @@ section {
 }
 
 .resume .resume-item h5 {
-  color: #bcbdbe;
+  color: #e6e9ec;
   font-size: 16px;
   background:#383839;
   padding: 5px 15px;
@@ -555,7 +555,7 @@ section {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #bcbdbe;
+  background: #e6e9ec;
   border: 2px solid #2995fa;
 }
 
@@ -571,7 +571,7 @@ section {
   margin: 0 auto 25px auto;
   list-style: none;
   text-align: center;
-  background: #fff;
+  background: #45505b;
   border-radius: 50px;
   padding: 2px 15px;
 }
@@ -584,7 +584,7 @@ section {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #272829;
+  color: #fff;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
@@ -607,7 +607,7 @@ section {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(255, 255, 255, 0.7);
+  background: #45505b;
   position: absolute;
   left: 30px;
   right: 30px;
@@ -664,12 +664,12 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
-  color: #45505b;
+  color: #fff;
   font-weight: 600;
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
-  color: #45505b;
+  color: #fff;
   font-size: 14px;
   text-transform: uppercase;
   padding: 0;
@@ -682,7 +682,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: #45505b;
+  color: #fff;
   margin: 0 2px;
   font-size: 28px;
   display: inline-block;
@@ -698,7 +698,7 @@ section {
   left: 0;
   right: 0;
   bottom: 0;
-  opacity: 1;
+  opacity: 0.7;
 }
 
 .portfolio .portfolio-wrap:hover .portfolio-info {
@@ -734,7 +734,7 @@ section {
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fff;
+  background-color: #45505b;
   opacity: 1;
   border: 1px solid #2995fa;
 }
@@ -1137,7 +1137,11 @@ section {
 --------------------------------------------------------------*/
 #footer {
   background: rgba(30, 33, 36, 0.6);
+<<<<<<< HEAD
+  color: #e6e9ec;
+=======
   color: #e8e9e9;;
+>>>>>>> 065e975ee06664d9afc94df50fa03ff166af2b4d
   font-size: 14px;
   text-align: center;
   padding: 30px 0;
